@@ -59,14 +59,4 @@ After installation, configure the plugin through:
 3. If the Author exceeds their limit, article creation is blocked
 4. Authors see informative messages about their current article count
 
-## 🔧 Technical Details
 
-- **Plugin Group**: Content
-- **Compatibility**: Joomla 4.x, 5.x
-- **Events Used**: 
-  - `onContentBeforeSave` - Checks limits before article save
-  - `onContentPrepareForm` - Displays current article count to users
-
-## 📝 Usage Examples
-
-### Example 1: Basic Author Limit
