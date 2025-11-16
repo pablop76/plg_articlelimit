@@ -59,4 +59,12 @@ After installation, configure the plugin through:
 3. If the Author exceeds their limit, article creation is blocked
 4. Authors see informative messages about their current article count
 
+## 🗄️ Database Support
+
+- ✅ **MySQL/MariaDB** - Fully tested and supported
+- ⚠️ **PostgreSQL** - Should work via Joomla's database abstraction, but not thoroughly tested
+- ❓ **Other databases** - Compatibility unknown
+
+**Always test** on your specific database system before production use.
+
 
